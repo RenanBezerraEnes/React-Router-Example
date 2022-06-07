@@ -11,7 +11,7 @@ function App() {
 			<NavBar />
 			<Routes>
 				<Route path="/Product" element={<Product />} />
-				<Route path="/Resources" exact element={<Resources />} />
+				<Route path="/Resources" element={<Resources />} />
 				<Route path="/Support" element={<Support />} />
 			</Routes>
 		</BrowserRouter>

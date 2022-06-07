@@ -23,7 +23,7 @@ function NavBar() {
 			</div>
 
 			<div>
-				<Navbar.Brand href="#home">
+				<Navbar.Brand as={Link} to="/">
 					<img
 						src="https://ubisoft-avatars.akamaized.net/64983032-4ab0-4c32-b68e-3a27e978909f/default_256_256.png"
 						alt="Logo"
@@ -32,7 +32,7 @@ function NavBar() {
 				</Navbar.Brand>
 			</div>
 
-			<div className="mr-5">
+			<div className="mr-5" xs={"mb-2"}>
 				<Button
 					as="input"
 					type="button"
